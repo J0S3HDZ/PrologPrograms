@@ -8,10 +8,8 @@ inicio:-
 	write('- Altura [mts]: '),
 	read(Altura),nl,
 	operacion(Nombre,Peso,Altura).
-
-
+	
 %% Calculo IMC
-
 operacion(Nombre,Peso,Altura):- 
 	B is Altura * Altura,
 	Res is Peso / B ,

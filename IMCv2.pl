@@ -1,6 +1,3 @@
-%% Nombre: José de Jesús Hernández Magaña
-%% Programa para calcular el IMC de pacientes y consulta de base de conocimientos.
-
 inicio:- 
 	write('###############################'),nl,
 	write('## Calculadora de IMC ##'),nl,
